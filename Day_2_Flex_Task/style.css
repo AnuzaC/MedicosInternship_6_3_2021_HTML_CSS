@@ -36,6 +36,9 @@ header{
 	justify-content: center;
 	color: #01adb9;
 }
+.nav-bar-content2{
+	padding-left: 30px;
+}
 .nav-bar-content3{
 	font-size: 30px;
 	text-decoration: bold;
