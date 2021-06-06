@@ -1,0 +1,408 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	object-fit: contain;
+}
+/*--------------------------FEATURED--------------------------------*/
+header{
+    height: 100%;
+    width: 100%;
+    font-family: verdana;
+}
+.top{
+	background-color: #01adb9;
+	height: 50px;
+}
+.top-nav{
+	
+	font-size: 18px;
+	color: white;
+	justify-content: space-between;
+}
+.top-nav a.action{
+	text-decoration: underline;
+	color: white;
+}
+.nav-bar{ 
+  	
+  	flex-direction: row;
+  	justify-content: space-between;
+}
+.nav-bar-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #01adb9;
+}
+.nav-bar-content3{
+	font-size: 30px;
+	text-decoration: bold;
+	font-family: impact;
+	text-align: center;
+}
+input{
+	padding:10px 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+/*--------------------------MAIN--------------------------------*/
+main,.nav-bar, .top-nav{
+	padding: 10px 100px;
+}
+.top-nav,.nav-bar,.flex-container-featured,.flex-container-editor,.flex-container-latest,.flex-container-trending,.grid-container,.flex-container-top-reads,.flex-container-spotlight,.healthline-raising-bar,.flex-container-healthline,.register,.flex-container-footer{
+	display: flex;
+	flex-direction: row;
+}
+.topic{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+/*--------------------------FEATURED--------------------------------*/
+.flex-container-featured{
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.flex-container-featured img{
+	max-width: 280px;
+}
+/*--------------------------EDITOR--------------------------------*/
+.flex-container-editor{
+	justify-content: space-between;
+	padding-top: 0px 10px;
+	padding-bottom: 50px;
+}
+
+.flex-container-editor figcaption{
+	font-family: Malgun Gothic;
+	font-weight: bold;
+	font-size: 16px;
+}
+.flex-container-editor img{
+	max-height: 160px;
+	max-width: 210px;
+}
+
+/*--------------------------LATEST STORIES--------------------------------*/
+.section-head{
+	color: #01adb9;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Malgun Gothic;
+}
+.flex-container-latest-left-content h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+.flex-container-latest{
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+.flex-container-latest-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.flex-container-latest-left-content{
+	padding: 10px 60px 9px 10px;
+	display: flex;
+	flex-direction: column;
+}
+.flex-container-latest-left-img{
+	max-width: 620px;
+	max-height: 449px;
+}
+.flex-container-latest-right{
+	padding-left:0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.latest-stories-img{
+	max-height: 190px;
+	max-width: 210px;
+}
+.latest-stories-flex-item{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.latest-stories-content{
+	padding-left: 10px;
+}
+.latest-stories-content h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+/*--------------------------TRENDING--------------------------------*/
+.flex-container-trending{
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.flex-container-trending-left{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	width: 3200px;
+	justify-content: space-between;
+}
+.flex-container-trending-left-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flex-container-trending-left img{
+	max-height: 230px;
+	max-width: 280px;
+	margin: 20px 10px 20px 0px;
+}
+.flex-container-trending-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+.flex-container-trending-section h4{
+	font-family: impact;
+	font-size: 30px;
+}
+.flex-container-trending-right{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-grow: 1;
+}
+.flex-container-trending-right-img{
+	padding: 50px 0px 100px 50px;
+}
+.flex-container-trending-right-content{
+	margin: 40px 0px 150px 50px;
+	padding: 40px;
+	background-color: #ebf3f4;
+}
+.flex-container-trending-right-section h3{
+	font-family: impact;
+	font-size: 30px;
+}
+.button{
+	background-color: #01adb9;
+	color: white;
+	width: 214px;
+	font-size: 14px;
+	padding: 5px 10px;
+}
+.privacy{
+	text-decoration: underline;
+}
+
+
+/*-----------------------------HEALTH VOICES-----------------------*/
+
+.grid-container{
+	margin: 10px 0px;
+	padding-bottom: 50px;
+	display: grid;
+	grid-column-gap: 20px;
+	grid-template-columns: auto auto auto auto;
+}
+.grid-item1, .grid-item3{
+	background-color: #fbf5ed;
+	padding: 20px 30px;	
+	text-align: center;
+	font-family: verdana;
+}
+.grid-item1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.grid-item2 img{
+	max-height: 203px;
+	max-width: 386px;
+}
+
+/*-----------------------------MORE TOP READS-----------------------*/
+.flex-container-top-reads{
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+.flex-container-top-reads-left, .flex-container-top-reads-right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.flex-container-top-reads-left-content, .flex-container-top-reads-right-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flex-container-top-reads-left-section, .flex-container-top-reads-right-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+.flex-container-top-reads-left-section h4, .flex-container-top-reads-right-section h4{
+	font-family: impact;
+	font-size: 20px;
+}
+.flex-container-top-reads-left img,.flex-container-top-reads-right img {
+	height: 130px;
+	width: 180px;
+}
+
+/*-----------------------------SPOTLIGHT-----------------------*/
+.flex-container-spotlight img{
+	width: 260px;
+	height: 450px;
+}
+
+.flex-container-spotlight{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*-----------------------------HEALTH IS RAISING BAR-----------------------*/
+.spotlight-bottom{
+	background-color: #f7efe0;
+	margin: 0;
+	padding: 20px;
+	padding-bottom: 10px;
+	height: 500px;
+}
+.healthline-raising-bar{ 
+	justify-content: space-between;
+}
+.healthline-raising-bar-left, .healthline-raising-bar-right{
+	padding: 50px 40px;
+}
+.healthline-raising-bar-right{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+.healthline-raising-bar-left-section h3{
+	font-weight: bold;
+	font-size: 35px;
+}
+.healthline-raising-bar-left-section p{
+	font-size: 18px;
+}
+.healthline-raising-bar-right-section{
+	display: flex;
+	flex-direction: row;
+}
+
+.healthline-raising-bar-right-section i{
+	font-size: 40px;
+	color: #01adb9;
+}
+.healthline-raising-bar-right-section p{
+	font-size: 18px;
+	padding: 10px;
+}
+
+.button{
+	background-color: #01adb9;
+	color: white;
+	width: 300px;
+	font-size: 15px;
+	padding: 15px 30px;
+}
+/*-------------------Footer1-----------------*/
+.health-topic{
+	padding-top: 20px;
+}
+.flex-container-healthline{
+	justify-content: space-around;
+	background-color: #fbf5ed;
+	padding: 30px 20px 50px 20px;
+}
+.flex-container-healthline-left{
+	padding: 20px 150px 10px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.flex-container-healthline-left-content1{
+	display: flex;
+	flex-direction: row;
+}
+.flex-container-healthline-left-content1 h2{
+	flex-grow: 2;
+	font-family: impact;
+	font-size: 30px;
+}
+.icons{
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 19px;
+	display: inline-block;
+}
+.flex-container-healthline-left-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.flex-container-healthline-left-section h4{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0px;
+}
+.register{
+	justify-content: space-between;
+}
+.flex-container-healthline-right, .flex-container-healthline-mid{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.flex-container-healthline-right a, .flex-container-healthline-mid a{
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+.flex-container-healthline-right-section span{
+	text-decoration: underline;
+}
+
+/*-------------------Footer-----------------*/
+footer{
+	background-color: black;
+}
+.flex-container-footer{
+	padding: 20px 100px 20px 100px;
+}
+.flex-container-footer-content1{
+	font-size: 20px;
+	flex-grow: 4;
+	color: white;
+}
+.flex-container-footer-content2{
+	padding: 20px 20px 8px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.flex-container-footer-top, .flex-container-footer-bottom{
+	display: inline-block;
+	color: white;
+}
+.flex-container-footer-content2 a{
+	color: #898989;
+	text-decoration: underline;
+}
+.flex-container-footer-img{
+	padding: auto 100px auto auto;
+}
+.flex-container-footer-bottom span{
+	font-weight: bold;
+}
